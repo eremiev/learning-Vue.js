@@ -15,6 +15,7 @@ export default {
       msg: 'Test page!'
     }
   }
+
 }
 </script>
 

@@ -1,18 +1,18 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <input type="text" v-model="msg" />
     
   </div>
 </template>
 
 <script>
 export default {
-  props: ['childMessage'],
+  props: [''],
   name: 'test',
   data () {
     return {
-      msg: 'test page'
+      msg: 'Test page!'
     }
   }
 }
